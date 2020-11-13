@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+html {
+    font-size: 1.4em;
+    font-family: 'Quicksand', sans-serif;
+    color: #f4d488;
+    }
+
+.container {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 70px;
+}
+.nav-area{
+    list-style: none;
+}
+.nav-area li{
+    display: inline-block;
+    padding: 0 15 px;
+    text-transform: uppercase;
+}
+.nav-area li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+    height: 300px;
+    padding: 20px;
+}
+.nav-area li a:hover{
+    color: #f4d488;
+}
+/* Opening section */
+#Opening{
+    background-image: url(./img/CRANK\ HIMSELF.jpg);
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    z-index: 1;
+}
+
+#Opening::after{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: .7;
+    z-index: -1;
+}
+#Opening .opening{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 50px;
+    justify-content: flex-start; 
+}
+#Opening h2 {
+    display: block;
+    width: fit-content;
+    font-size: 5em;
+    position: relative;
+    color: #fcfbc6;
+}
+/* End Opening section */
+
+/* Album section */
+.Album{
+    display: inline;
+    width: 50%;
+    height: 50px;
+    font-size: 1.5em;
+    margin: auto;
+    padding: auto;
+    text-align: center; 
+}
+
+h1{color: #fff;}
+
+h2{color: #f79c0b;}
+
+h3{color: #f79c0b;}
+
+h4{color: #f79c0b;}
+
+ul{
+    list-style-type: none;  
+}
+/* End of Album section */
+
+/* About section */
+.About{
+    position: relative;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+h5{
+    padding: auto;
+    margin-top: 200px;
+    margin-bottom: 0px;
+    font-size: 6em;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+/* End of About section */
+
+/* Merch section */
+
+
+.Merch_text_combo {
+    width: 400px;
+    height: 300px;
+    float: left;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+.Merch img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.Name {
+    color: #f79c0b;
+}
+
+h6 {
+    color: #fff;
+    font-size: 2em;
+    margin: auto;
+    text-align: center;
+    margin-top: 200px;
+}
+
+p {
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.Shop {
+    display: inline-block;
+    padding: 20px 30px;
+    color: #fff;
+    text-align: center;
+    background-color: transparent;
+    border: 2px solid #f79c0b;
+    font-size: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+/* End of Merch section */
+
+body{
+    background-color: #1A191F;
+}
+
+
+
+
